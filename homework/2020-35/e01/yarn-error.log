@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\saifu022\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add project-name-generator
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Users\saifu022\AppData\Local\Microsoft\WindowsApps;C:\Users\saifu022\AppData\Local\atom\bin;C:\Users\saifu022\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\saifu022\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\saifu022\AppData\Roaming\npm;C:\Program Files (x86)\GitHub CLI\
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "name": "e01",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "eslint": "^7.32.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
